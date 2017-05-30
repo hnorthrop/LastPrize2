@@ -1,0 +1,124 @@
+/*Reduces White Space*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+    }
+/*Css for Top Nav Bar*/
+.topBar {
+    background-color: black;
+    color: black;
+    height:20px;
+}
+/*Css for Links*/
+a.whiteLink:link {
+    color: white;
+    text-decoration: none;
+}
+a.whiteLink:visited {
+    color: white;
+    text-decoration: none;
+}
+a.whiteLink:hover {
+    color: white;
+    margin: 0px 5px 0px 5px;
+    text-decoration: underline;
+}
+.header {
+    width: 100%;
+    height: 101px;
+}
+#title {
+    font-size: 72px;
+    float: left;
+    font-family: sans-serif;
+}
+/*Lower nav bar Links*/
+#links {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 20px;
+    width: 100%;
+}
+a.blackLinkBar:link {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a.blackLinkBar:visited {
+    color: black;
+    text-decoration: none;
+}
+a.blackLinkBar:hover {
+    color: black;
+    text-decoration: underline;
+}
+#linkBar {
+    height: 25px;
+    width: 100%;
+    border: solid black 3px;
+}
+/*Logo*/
+.logo {
+    width: 200px;
+    height: 101px;
+    float: left;
+}
+/*Front Page Article*/
+#articleBox {
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    border: solid 5px #ffe100;
+    border-radius: 5%;
+    background-color: #ffe900;
+    text-align: center;
+    font-family: sans-serif;
+}
+.featuredArticle {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    word-wrap: break-word;
+    overflow: scroll;
+}
+.featuredImage
+{
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+.featuredText {
+    max-height: 30px;
+}
+/*Front Page Shop*/
+#shopBox {
+    margin-top: 10px;
+    height: 245px;
+    width: 100%;
+    border: solid 5px #004cff;
+    border-radius: 5%;
+    background-color: #165cff;
+    text-align: center;
+    font-family: sans-serif;
+}
+/*Front Page Video*/
+#videoBox {
+    margin-top: 10px;
+    height: 245px;
+    width: 100%;
+    border: solid 5px #00b718;
+    border-radius: 5%;
+    background-color: #00cc1a;
+    text-align: center;
+    font-family: sans-serif;
+}
+.featuredVideo {
+    width: 80%;
+    max-width: 300px;
+    height: 70%;
+}
