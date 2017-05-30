@@ -81,19 +81,23 @@ a.blackLinkBar:hover {
 }
 .featuredArticle {
     height: 400px;
-    width: 100%;
+    width: 90%;
     background-color: white;
     word-wrap: break-word;
     overflow: scroll;
+    margin-left: 5%;
+    border-radius: 5%;
 }
-.featuredImage
-{
+
+.featuredImage {
     height: 200px;
     width: 300px;
-    float: right;
 }
+
 .featuredText {
     max-height: 30px;
+    width: 95%;
+    margin-left: 2.5%
 }
 /*Front Page Shop*/
 #shopBox {
@@ -105,6 +109,21 @@ a.blackLinkBar:hover {
     background-color: #165cff;
     text-align: center;
     font-family: sans-serif;
+}
+.featuredShop {
+    height: 160px;
+    width: 90%;
+    background-color: white;
+    word-wrap: break-word;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+.featuredShopImage {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    float: left;
+    overflow: scroll;
 }
 /*Front Page Video*/
 #videoBox {
